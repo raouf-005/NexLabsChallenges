@@ -22,4 +22,5 @@ int main() {
     printf("Returned to main safely.\n");
     return 0;
 }
-//gcc -fno-stack-protector chall2 chall2.c -Wno-implicit-function-declaration
+//gcc -fno-stack-protector -o chall2 chall2.c -Wno-implicit-function-declaration
+
