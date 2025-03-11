@@ -21,4 +21,4 @@ int main() {
     return 0;
 }
 
-//gcc -fno-stack-protector -o vuln vuln.c -pie -fPIE
+//gcc -fno-stack-protector -o chall3 chall3.c -pie -fPIE  -Wno-implicit-function-declaration
